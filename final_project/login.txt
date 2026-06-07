@@ -1,0 +1,3 @@
+Invoke-RestMethod -Uri "http://localhost:5000/customer/login" -Method POST -ContentType "application/json" -Body $body
+
+User successfully logged in
